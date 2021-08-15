@@ -60,6 +60,8 @@ docker-compose exec app composer require laravel/ui
 php artisan ui bootstrap
 
 npm install
+
+npm run dev
 ```
 
 ### Database Setup
