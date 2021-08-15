@@ -66,6 +66,16 @@ npm run dev
 
 ### Database Setup
 
+* copy .env.example , rename to .env , change these db connet
+```
+DB_CONNECTION=mysql
+DB_HOST=db
+DB_PORT=3306
+DB_DATABASE=laravel
+DB_USERNAME=user1
+DB_PASSWORD=admin
+```
+
 * migrate new database (Make sure the destined database (here: laravel) is empty)
 ```
 docker exec app php artisan migrate
