@@ -57,7 +57,7 @@ docker-compose exec app composer update
 ```
 docker-compose exec app composer require laravel/ui
 
-php artisan ui bootstrap
+docker-compose exec app php artisan ui bootstrap
 
 npm install
 
